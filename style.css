@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+body {
+  font-weight: 300;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 5px auto;
+  background: rgb(66, 102, 90);
+}
+
+h1, h3 {
+  color: rgba(38, 31, 60, 0.802);
+  background: rgb(130, 220, 190);
+  line-height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button, p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: inset;
+  border: 5px auto;
+}
+
+.btn-burgundy {
+  background-color: rgb(131, 3, 67);
+  color: yellow;
+  padding: 12px 10px;
+  font-size: 16px;
+}
+
+a {
+  color: rgb(218, 60, 87);
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+a:hover {
+  text-decoration: wavy;
+  color: rgb(167, 38, 38);
+  transition: 0.4s;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 10%;
+}
+
+body {
+  margin: 25px auto;
+  padding: 5px;
+  border: 5px rgb(224, 218, 218);
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  align-content: center;
+  background-color: rgb(234, 230, 230);
+}
+
+.container {
+  background-color: rgb(228, 244, 244);
+  text-align: center;
+  margin: 25px auto;
+  width: 50vw;
+}
+
+.card-inline {
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.222);
+  width: 500px auto;
+  padding: 15px;
+}
+
+.inline{
+  text-align: center;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card-inline i {
+  font-size: 250%;
+  display: inline-block;
+  padding: 20px;
+}
